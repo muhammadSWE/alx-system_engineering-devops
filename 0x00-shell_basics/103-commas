@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1p | sort -f -d | awk BEGIN{ORS=, }{print}END{print \n}
+ls -amvp
