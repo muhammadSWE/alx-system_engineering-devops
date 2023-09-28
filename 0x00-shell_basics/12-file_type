@@ -1,2 +1,2 @@
 #!/bin/bash
-touch /tmp/iamafile | file
+ touch /tmp/iamafile | chmod +x /tmp/iamafile | file /tmp/iamafile
