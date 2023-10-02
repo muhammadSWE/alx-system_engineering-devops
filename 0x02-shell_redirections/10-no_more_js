@@ -1,2 +1,2 @@
 #!/bin/bash
-shopt -s globstar && rm -f **/*.js
+find . -name "*.js" -delete
